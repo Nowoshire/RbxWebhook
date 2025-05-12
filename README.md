@@ -128,7 +128,7 @@ embed1.fields[3] = {
 	["value"] = "Value"
 }
 
-local success, response = discordWebhook.SendMessageAsync("https://discord.com/api/webhooks/1356175496056017058/7wTNZsmY-qU87Nto92-MR1gMvBrYxzje8r9ezh7QO_WUnbdpXbgGnhNmnwDoZUR9Wf00", data, true)
+local success, response = discordWebhook.SendMessageAsync("WEBHOOK_URL", data, true)
 
 if success then
 	print("Sent successfully!")
