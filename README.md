@@ -58,6 +58,8 @@ This method does not apply global rate limiting, avoid sending requests from mul
 | <samp>[boolean][bool]</samp> | Whether the operation was successful. |
 | <samp>[Dictionary][dict]</samp> \| <samp>[string][string] | The response of the request if the operation was successful, or the failure reason string if it was not. |
 
+<br>
+
 ### Code Samples
 This code sample demonstrates sending a message with a username and avatar image override, a message reading "Hello World!", an embed, a poll with 2 answers lasting 12 hours, and other miscellaneous options.
 ```lua
